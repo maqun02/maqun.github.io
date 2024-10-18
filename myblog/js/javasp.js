@@ -12,22 +12,22 @@ function BeiJing() {
     //alert(hour);
     if(P1 == 1){
     if (hour > 3 && hour <= 5) {
-        document.body.style.backgroundImage = "url(../images/beijing/4-6.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/4-6.png)";
     } else if (hour > 5 && hour <= 10) {
-        document.body.style.backgroundImage = "url(../images/beijing/6-11.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/6-11.png)";
     } else if (hour > 10 && hour <= 12) {
-        document.body.style.backgroundImage = "url(../images/beijing/11-13.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/11-13.png)";
     } else if (hour > 12 && hour <= 15) {
-        document.body.style.backgroundImage = "url(../images/beijing/13-16.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/13-16.png)";
     } else if (hour > 15 && hour <= 17) {
-        document.body.style.backgroundImage = "url(../images/beijing/16-18.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/16-18.png)";
     } else if (hour > 17 && hour <= 21) {
-        document.body.style.backgroundImage = "url(../images/beijing/18-22.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/18-22.png)";
     } else {
-        document.body.style.backgroundImage = "url(../images/beijing/22-4.png)";
+        document.body.style.backgroundImage = "url(myblog/images/beijing/22-4.png)";
     }}
 
-    else{  document.body.style.backgroundImage = "url(../images/beijing/22-4.png)"}
+    else{  document.body.style.backgroundImage = "url(myblog/images/beijing/22-4.png)"}
 }
 window.setInterval("BeiJing()", 1000);
 
